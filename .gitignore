@@ -4,3 +4,9 @@ out/
 build/
 .env*
 !.env.example
+node_modules/
+.next/
+out/
+build/
+.env*
+!.env.example
