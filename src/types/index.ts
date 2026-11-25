@@ -1,0 +1,2 @@
+export type Hotel = { id: string; destination_id: string; name: string; description: string | null; image_url: string | null; price_per_night: number; rating: number; total_rooms: number };
+export type Booking = { id: string; kind: "hotel" | "transport" | "package"; hotel_id: string | null; check_in: string | null; check_out: string | null; guests: number; total_price: number; status: "pending" | "confirmed" | "cancelled"; payment_status: "unpaid" | "paid" | "refunded"; created_at: string };
